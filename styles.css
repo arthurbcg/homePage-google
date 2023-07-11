@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #151515;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-top: 20px;
+
+    > a {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+
+    > a:hover {
+        text-decoration: underline;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.search-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    border: 1px solid white;
+    width: 500px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+    > input {
+        border: none;
+        height: 30px;
+        width: 70%;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 5px;
+    }
+    
+    > a {
+        margin-left: 15px;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 135px;
+
+    > span{
+        color: gray;
+        margin: 20px;
+    }
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-terms, .nav-footer {
+    padding-top: 20px;
+    margin-left: 5px;
+
+    > a {
+        color: gray;
+        margin: 15px;
+        cursor: pointer;
+    }
+
+    > a:hover {
+        text-decoration: underline;
+    }
+}
